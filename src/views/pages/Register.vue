@@ -1,7 +1,7 @@
 <template>
   <form class="card auth-card">
   <div class="card-content">
-    <span class="card-title">Домашняя бухгалтерия</span>
+    <span class="card-title">Kiçik Mühasibatlıq</span>
     <div class="input-field">
       <input
           id="email"
@@ -31,7 +31,7 @@
     <p>
       <label>
         <input type="checkbox" />
-        <span>С правилами согласен</span>
+        <span>Qaydalarla razıyam</span>
       </label>
     </p>
   </div>
@@ -47,8 +47,8 @@
     </div>
 
     <p class="center">
-      Уже есть аккаунт?
-      <a href="/">Войти!</a>
+     Əgər Hesabınız varsa
+      <router-link to="/login">Daxil olun!</router-link>
     </p>
   </div>
 </form>

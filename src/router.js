@@ -9,12 +9,6 @@ export default new Router({
   base: process.env.BASE_URL,
   routes: [
     {
-      path: '/',
-      name: 'home',
-      meta:{ layout: 'main'},
-      component: Home
-    },
-    {
       path: '/login',
       name: 'login',
       meta:{ layout: 'auth'},
@@ -27,6 +21,12 @@ export default new Router({
       meta:{ layout: 'auth'},
       //Lazy Loading
       component: () => import('./views/pages/Register.vue')
+    },
+    {
+      path: '/',
+      name: 'home',
+      meta:{ layout: 'main'},
+      component: () => import('./views/pages/Home.vue')
     },
     {
       path: '/categories',

@@ -6,23 +6,9 @@
   </div>
 </template>
 
-<script>
-import AuthLayout from "@/views/layouts/AuthLayout";
-import MainLayout from "@/views/layouts/MainLayout";
+<script src="./controllers/appController.js"></script>
 
-export default {
-  computed: {
-    layout() {
-    
-      return (this.$route.meta.layout || 'auth')+ '-layout';
-    }
-  },
-  components: {
-    AuthLayout,
-    MainLayout
-  }
-};
-</script>
+
 
 <style lang="css">
 @import "~materialize-css/dist/css/materialize.min.css";
