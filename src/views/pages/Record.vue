@@ -1,7 +1,7 @@
 <template>
   <div>
   <div class="page-title">
-    <h3>Новая запись</h3>
+    <h3>Yeni</h3>
   </div>
 
   <form class="form">
@@ -10,7 +10,7 @@
         <option
         >name cat</option>
       </select>
-      <label>Выберите категорию</label>
+      <label>Kateqoriya</label>
     </div>
 
     <p>
@@ -21,7 +21,7 @@
             type="radio"
             value="income"
         />
-        <span>Доход</span>
+        <span>Gelir</span>
       </label>
     </p>
 
@@ -33,7 +33,7 @@
             type="radio"
             value="outcome"
         />
-        <span>Расход</span>
+        <span>Xerc</span>
       </label>
     </p>
 
@@ -42,8 +42,8 @@
           id="amount"
           type="number"
       >
-      <label for="amount">Сумма</label>
-      <span class="helper-text invalid">amount пароль</span>
+      <label for="amount">Mebleg</label>
+      <span class="helper-text invalid"></span>
     </div>
 
     <div class="input-field">
@@ -51,13 +51,13 @@
           id="description"
           type="text"
       >
-      <label for="description">Описание</label>
+      <label for="description">Serh</label>
       <span
-            class="helper-text invalid">description пароль</span>
+            class="helper-text invalid"></span>
     </div>
 
     <button class="btn waves-effect waves-light" type="submit">
-      Создать
+      Yarat
       <i class="material-icons right">send</i>
     </button>
   </form>

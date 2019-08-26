@@ -2,14 +2,14 @@
   
 <div>
   <div class="page-title">
-    <h3>Категории</h3>
+    <h3>Kateqoriya</h3>
   </div>
   <section>
     <div class="row">
       <div class="col s12 m6">
         <div>
           <div class="page-subtitle">
-            <h4>Создать</h4>
+            <h4>Yaratmaq</h4>
           </div>
 
           <form>
@@ -18,8 +18,8 @@
                   id="name"
                   type="text"
               >
-              <label for="name">Название</label>
-              <span class="helper-text invalid">Введите название</span>
+              <label for="name">Adi</label>
+              <span class="helper-text invalid"></span>
             </div>
 
             <div class="input-field">
@@ -27,12 +27,12 @@
                   id="limit"
                   type="number"
               >
-              <label for="limit">Лимит</label>
-              <span class="helper-text invalid">Минимальная величина</span>
+              <label for="limit">Limit</label>
+              <span class="helper-text invalid"></span>
             </div>
 
             <button class="btn waves-effect waves-light" type="submit">
-              Создать
+              Yarat
               <i class="material-icons right">send</i>
             </button>
           </form>
@@ -41,21 +41,21 @@
       <div class="col s12 m6">
         <div>
           <div class="page-subtitle">
-            <h4>Редактировать</h4>
+            <h4>Deyis</h4>
           </div>
 
           <form>
             <div class="input-field" >
               <select>
-                <option>Category</option>
+                <option>Kateqoriya</option>
               </select>
-              <label>Выберите категорию</label>
+              <label>Sec</label>
             </div>
 
             <div class="input-field">
               <input type="text" id="name">
-              <label for="name">Название</label>
-              <span class="helper-text invalid">TITLE</span>
+              <label for="name">Ad</label>
+              <span class="helper-text invalid"></span>
             </div>
 
             <div class="input-field">
@@ -63,12 +63,12 @@
                   id="limit"
                   type="number"
               >
-              <label for="limit">Лимит</label>
-              <span class="helper-text invalid">LIMIT</span>
+              <label for="limit">Limit</label>
+              <span class="helper-text invalid"></span>
             </div>
 
             <button class="btn waves-effect waves-light" type="submit">
-              Обновить
+              Yenile
               <i class="material-icons right">send</i>
             </button>
           </form>
